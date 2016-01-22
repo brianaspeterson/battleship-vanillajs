@@ -3,8 +3,17 @@
 	display: none;
 }
 
-.show{
+table{
+	width: 400px;
+	height: 100px;
+}
+td {
 
+	background-color: gray;
+}
+
+.selected {
+	background-color: red;
 }
 
 /*table {

@@ -28,8 +28,11 @@ function test(){
 }
 
 function begin(){
-
-	$('#turk').addClass('');
-
+	$('#prompt').addClass("hidden");
+	$('#tableBody').removeClass("hidden");
+	$( "#tableBody" ).click(function(event) {
+			//logic from notebook
+  			$(event.target).addClass("selected");
+});
 
 }
